@@ -1,0 +1,19 @@
+{
+  "name": "claude-code-presentation",
+  "version": "1.0.0",
+  "description": "Présentation Claude Code avec Slidev",
+  "type": "module",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.6.0",
+    "@slidev/theme-default": "latest",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@slidev/types": "latest"
+  }
+}

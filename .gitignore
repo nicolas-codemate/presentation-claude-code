@@ -1,0 +1,50 @@
+# Slidev
+dist
+.slidev
+
+# Node.js
+node_modules
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Videos (optionnel - décommentez si vous ne voulez pas versionner les vidéos)
+# public/videos/*.mp4
+# public/videos/*.mov
+# public/videos/*.avi
+# public/videos/*.webm
+
+# Exports
+*.pdf
+exports
+
+# Cache
+.cache
+.temp
+.tmp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build
+build
+out
